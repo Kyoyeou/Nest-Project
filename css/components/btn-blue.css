@@ -1,0 +1,19 @@
+.btn-blue{
+	text-decoration:none;
+	font-family: 'Noto Sans JP', sans-serif;
+	background-color: white;
+	color: #1967D2;
+	padding: 10px 17px;
+	border-radius: 6px;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 3px;
+}
+
+.btn-blue:hover{
+	color: black;
+}
+
+#btn-blue-banner{
+	background-color: #ececeb;
+}

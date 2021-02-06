@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import	url("components/container.css");
+@import	url("components/avatar.css");
+@import	url("components/btn-blue.css");
+@import	url("components/banner.css");
+@import	url("components/card.css");
+@import	url("components/home.css");
+@import	url("components/audio.css");
+@import	url("components/hub.css");
+@import	url("components/mini.css");
+@import	url("components/letter-colored.css");
+@import	url("components/small-logos.css");
+body { 
+	font-family: 'Noto Sans', Sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	background-color: rgb(251,252,251);
+}
+
+h1, h2, h3 {
+	font-family: 'Noto Sans JP', Sans-serif;
+
+	font-weight: 600;
+	color: rgb(56,53,53);
+}
+
+
+@media (max-width:1500px) {
+  .card {
+  }
+}
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .card {
+    width: 300px;
+  }
+}
+
+
+
+
+/*Everything to get better*/
+
+#better-banner {
+	margin-bottom: -15px;
+}
+
+#better-home{ 
+	padding-top: 40px;
+}
+
+#better-audio{ 
+	padding-top: 34px;
+}
+
+#better-hub{ 
+	padding-top: 9px;
+}
+
+#better-mini{ 
+	padding-top: 51px;
+}
+
